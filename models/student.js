@@ -4,7 +4,7 @@ const ObjectId = Schema.ObjectId;
 
 const student = new Schema({
     id: { type: ObjectId }, // khóa chính
-    fullname: { type: String, require: true },
+    fullName: { type: String, require: true },
     dateOfBirth: { type: Date, require: true },
     phoneNumber: { type: String, require: true },
     address: { type: String, require: true },
